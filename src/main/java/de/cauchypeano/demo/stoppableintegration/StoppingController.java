@@ -1,4 +1,4 @@
-package com.wirecard.demo.stoppableintegration;
+package de.cauchypeano.demo.stoppableintegration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

@@ -1,4 +1,4 @@
-package com.wirecard.demo.stoppableintegration;
+package de.cauchypeano.demo.stoppableintegration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

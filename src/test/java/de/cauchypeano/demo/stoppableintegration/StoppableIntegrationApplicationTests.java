@@ -1,4 +1,4 @@
-package com.wirecard.demo.stoppableintegration;
+package de.cauchypeano.demo.stoppableintegration;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

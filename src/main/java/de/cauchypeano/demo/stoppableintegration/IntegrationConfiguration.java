@@ -1,4 +1,4 @@
-package com.wirecard.demo.stoppableintegration;
+package de.cauchypeano.demo.stoppableintegration;
 
 import com.jcraft.jsch.ChannelSftp;
 import org.springframework.context.annotation.Bean;
