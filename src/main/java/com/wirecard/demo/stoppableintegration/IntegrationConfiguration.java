@@ -29,7 +29,7 @@ public class IntegrationConfiguration {
         sessionFactory.setHost("localhost");
         sessionFactory.setPort(22);
 
-        sessionFactory.setUser("tech.coba");
+        sessionFactory.setUser("user");
 
         sessionFactory.setEnableDaemonThread(false);
 
@@ -96,8 +96,5 @@ public class IntegrationConfiguration {
                 .maxMessagesPerPoll(10)
                 .get();
     }
-
-//    @Bean
-//    public
 
 }
