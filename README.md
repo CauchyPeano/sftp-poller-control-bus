@@ -1,0 +1,1 @@
+# example of stoppable poller
