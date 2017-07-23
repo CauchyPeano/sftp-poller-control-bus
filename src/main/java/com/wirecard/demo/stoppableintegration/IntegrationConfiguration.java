@@ -28,14 +28,13 @@ public class IntegrationConfiguration {
         DefaultSftpSessionFactory sessionFactory = new DefaultSftpSessionFactory();
         sessionFactory.setHost("localhost");
         sessionFactory.setPort(22);
-        // user. Matter for discussion with operations
+
         sessionFactory.setUser("tech.coba");
-        // for daemon mode we need to take care of termination
+
         sessionFactory.setEnableDaemonThread(false);
-        // unlimited wait? matter of discussion
+
         sessionFactory.setTimeout(0);
-//        sessionFactory.setPrivateKey(properties.getPrivateKeyPath());
-//        sessionFactory.setPrivateKeyPassphrase(properties.getPassphrase());
+
         sessionFactory.setPassword("password");
 
         sessionFactory.setAllowUnknownKeys(true);
