@@ -70,7 +70,7 @@ public class IntegrationConfiguration {
     }
 
     @Bean
-    public IntegrationFlow controllerHaha() {
+    public IntegrationFlow controlBus() {
         return IntegrationFlows.from(controlChannel())
                 .controlBus()
                 .get();
